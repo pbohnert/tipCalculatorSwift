@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0CBEE0D19CB582F007092D3 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBEE0C19CB582F007092D3 /* UserViewController.swift */; };
 		D0EB348519CA26CC005E6A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB348419CA26CC005E6A98 /* AppDelegate.swift */; };
 		D0EB348719CA26CC005E6A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB348619CA26CC005E6A98 /* ViewController.swift */; };
 		D0EB348A19CA26CC005E6A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EB348819CA26CC005E6A98 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0CBEE0C19CB582F007092D3 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		D0EB347F19CA26CC005E6A98 /* tipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB348319CA26CC005E6A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EB348419CA26CC005E6A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0CBEE0E19CB583C007092D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0CBEE0C19CB582F007092D3 /* UserViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D0EB347619CA26CC005E6A98 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		D0EB348119CA26CC005E6A98 /* tipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				D0CBEE0E19CB583C007092D3 /* ViewControllers */,
 				D0EB348419CA26CC005E6A98 /* AppDelegate.swift */,
 				D0EB348619CA26CC005E6A98 /* ViewController.swift */,
 				D0EB348819CA26CC005E6A98 /* Main.storyboard */,
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EB348719CA26CC005E6A98 /* ViewController.swift in Sources */,
+				D0CBEE0D19CB582F007092D3 /* UserViewController.swift in Sources */,
 				D0EB348519CA26CC005E6A98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -407,6 +419,7 @@
 				D0EB34A019CA26CD005E6A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0EB34A119CA26CD005E6A98 /* Build configuration list for PBXNativeTarget "tipCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				D0EB34A319CA26CD005E6A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
